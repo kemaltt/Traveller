@@ -1,0 +1,203 @@
+/*============================
+General Styles
+=========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fredericka+the+Great&display=swap');
+
+/* 
+font-family: 'Cinzel', serif;
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    /* überlappend */
+    box-sizing: border-box;
+}
+
+.header-logo {
+    padding: 10px;
+    padding-left: 30px;
+    font-family: 'Cinzel', serif;
+    color: #999;
+    background-color: #fff;
+}
+
+.header-container {
+    background-image: url('https://images.unsplash.com/photo-1486312699619-be057cfc0342?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    text-align: center;
+    /* padding-top: 200px;
+    padding-bottom: 200px; */
+    padding: 35vh 0;
+}
+
+.header-title {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 48px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/* =======================
+          Main  
+====================== */
+
+#section-container {
+    text-align: center;
+    padding: 0 150px;
+}
+
+.section-description {
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-title {
+    font-family: 'Cinzel', serif;
+    margin: 50px;
+    color: #999;
+}
+
+.image {
+    width: 280px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.article-container {
+    text-align: left;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.article-title {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    margin: 30px;
+    color: #999;
+}
+
+article p {
+    font-size: 18px;
+    margin: 15px;
+    padding-left: 100px;
+}
+
+article p:nth-of-type(1)::after,
+article p:nth-of-type(2)::after,
+article p:nth-of-type(3)::after {
+    content: "- SOLD OUT";
+    color: red;
+}
+
+article p:nth-of-type(4)::after {
+    content: "- ONLY 4 SPOT AVAILABLE";
+    color: red;
+}
+
+article p:nth-of-type(5)::after,
+article p:nth-of-type(6)::after {
+    content: "- AVAILABLE";
+    color: green;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border-top: 1px solid #999;
+}
+
+.footer-title {
+    font-family: 'Cinzel', serif;
+    margin: 20px;
+}
+
+footer p {
+    margin: 30px;
+}
+
+footer div a {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+footer div a:first-child {
+    background: #999;
+    color: white;
+}
+
+footer div a:first-child:hover {
+    color: black;
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 8px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+footer div a:nth-child(2) {
+    background-color: #1F3A93;
+    color: white;
+}
+
+footer div a:nth-child(2):hover {
+    background-color: #fff;
+    color: #1F3A93;
+    border: 1px solid black;
+    padding: 7px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+footer div a:nth-child(3) {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: white;
+}
+
+footer div a:nth-child(3):hover {
+    background: #fff;
+    color: #d6249f;
+    border: 1px solid black;
+    padding: 7px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+footer div a:nth-child(4) {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+footer div a:nth-child(4):hover {
+    background-color: #fff;
+    color: #1DA1F2;
+    border: 1px solid black;
+    padding: 7px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+footer div a:last-child {
+    background: #999;
+    color: white;
+}
+
+footer div a:last-child:hover {
+    color: black;
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 7px;
+    transition: 0.3s;
+    font-weight: bold;
+}
